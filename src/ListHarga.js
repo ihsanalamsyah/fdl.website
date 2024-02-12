@@ -22,49 +22,49 @@ function ListHarga() {
             </Button>
             <Carousel className='mt-1'>
                 <Carousel.Item>
-                    <img src={image1} class="" alt=""/>
+                    <img src={image1} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image2} class="" alt=""/>
+                    <img src={image2} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image3} class="" alt=""/>
+                    <img src={image3} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image4} class="" alt=""/>
+                    <img src={image4} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image5} class="" alt=""/>
+                    <img src={image5} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image6} class="" alt=""/>
+                    <img src={image6} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={image7} class="" alt=""/>
+                    <img src={image7} class="w-75" alt=""/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
