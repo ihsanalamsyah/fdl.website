@@ -7,6 +7,26 @@
   .bg{
     height: 105vh;
   }
+  .chat-bubble {
+    padding: 4px 0vw !important;
+    font-size: 14px;
+    margin: 10px 15px !important;
+    width: 185px;
+  }
+  .EPOka::before{
+    left: 11px !important;
+  }
+  
+  .EPOka::after{
+    left: 11px !important;
+  }
+  .no-gutters{
+    bottom: 22px !important;
+    left: 74px !important;
+  }
+  .word-welcome{
+    font-size: 12px !important;
+  }
 }
 .carousel-indicators [data-bs-target]{
   width: 10px !important;
@@ -15,7 +35,9 @@
   margin-left: 6px !important;
   border-radius: 50%;
 }
-
+.word-welcome{
+  margin: 0px;
+}
 .img-listharga{
   width: 75vw;
 }
@@ -29,16 +51,126 @@
   color: #633C37 !important;
   border: none !important;
   font-size: 15px !important;
+  cursor: context-menu !important;
 }
 
-/* .wa-logo{
+.wa-logo{
   width: 50px;
   height: 50px;
   position: fixed !important;
   z-index: 16000160 !important;
-  bottom: 14px;
-  left: 16px;
-} */
+  bottom: 20px;
+  left: 20px;
+}
 
 
+.EPOka{
+  box-shadow: rgba(136, 136, 136, 0.4) 0px 1px 7px;
+  flex-shrink: 0;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  display: contents;
+}
+
+.EPOka::before{
+  content: "";
+  position: absolute;
+  background: #eee;
+  border-top: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid rgb(226, 226, 226);
+  left: 26px;
+  top: 50%;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+  transform: rotate(-45deg);
+}
+
+.EPOka::after{
+  content: "";
+  position: absolute;
+  background: #eee;
+  border-top: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid rgb(226, 226, 226);
+  left: 26px;
+  top: 50%;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+  transform: rotate(-45deg);
+}
+
+.no-gutters{
+  position: fixed !important;
+  z-index: 16000160 !important;
+  bottom: 13px;
+  left: 65px;
+  width: 270px;
+  animation-name: hilang, fadeIn, fadeOut;
+  animation-duration: 0s, 1s, 2.5s;
+  animation-delay: 0s, 3s, 7s;
+  animation-timing-function: ease, ease, ease;
+  animation-fill-mode: forwards, forwards, forwards;
+}
+
+:root{
+  --blue: #74b9ff;
+}
+
+
+hr {
+  margin: 5px auto;
+  width: 60%;
+}
+
+.chat-bubble {
+  padding: 10px 14px;
+  background: #eee;
+  margin: 10px 30px;
+  border-radius: 9px;
+  position: relative;
+  
+}
+
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+    transform: translateX(-5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(2%);
+    opacity: 1;
+    display: block;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes hilang {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
 

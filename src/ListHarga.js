@@ -23,11 +23,11 @@ function ListHarga() {
             <div className='row d-flex justify-content-center'>
                 <div className='col-8 col-lg-3 my-3'>
                 <Button variant="secondary" size="lg" active className='rounded-2 w-100 fdl-button py-3'>
-                    Price List FDL Dental Clinic
+                    <p className='word-welcome'>Welcome to Price List FDL Dental Clinic</p>
                 </Button>
-                </div>
-           
+                </div>          
             </div>
+            
             <div>
                 <Swiper
                     effect={'coverflow'}
@@ -59,18 +59,18 @@ function ListHarga() {
                    
                 </Swiper>
            </div>
-            {/* <div className='footer'>               
+            <div className='footer'>               
                 <a target="_blank" href="https://wa.me/6282114532993?text=Saya%20ingin%20operasi%20gigi%20bagaimana%20?%20">
                     <img src={walogo} className="wa-logo" alt="wa" />
                 </a>
-                <div class="row no-gutters">
-			        <div class="col-md-3">
+                <div class="no-gutters">
+			        <a target="_blank" href="https://wa.me/6282114532993?text=Saya%20ingin%20operasi%20gigi%20bagaimana%20?%20" class="EPOka">
 			            <div class="chat-bubble chat-bubble-left">
-				        Hello dude!
+				        Chat Us via WhatsApp
 			            </div>
-			        </div>
+			        </a>
 		        </div>
-            </div>  */}
+            </div> 
                    
         </div>
        
