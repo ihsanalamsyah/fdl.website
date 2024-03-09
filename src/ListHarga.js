@@ -60,11 +60,11 @@ function ListHarga() {
                 </Swiper>
            </div>
             <div className='footer'>               
-                <a target="_blank" href="https://wa.me/6282114532993?text=Saya%20ingin%20operasi%20gigi%20bagaimana%20?%20">
+                <a target="_blank" href="https://wa.me/628567760769?text=Saya%20ingin%20tahu%20lebih%20lanjut%20mengenai%20service%20yang%20ada">
                     <img src={walogo} className="wa-logo" alt="wa" />
                 </a>
                 <div class="no-gutters">
-			        <a target="_blank" href="https://wa.me/6282114532993?text=Saya%20ingin%20operasi%20gigi%20bagaimana%20?%20" class="EPOka">
+			        <a target="_blank" href="https://wa.me/628567760769?text=Saya%20ingin%20tahu%20lebih%20lanjut%20mengenai%20service%20yang%20ada" class="EPOka">
 			            <div class="chat-bubble chat-bubble-left">
 				        Chat Us via WhatsApp
 			            </div>
