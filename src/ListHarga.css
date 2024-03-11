@@ -27,6 +27,10 @@
   .word-welcome{
     font-size: 12px !important;
   }
+  .img-listharga{
+    height: 525px;
+  }
+  
 }
 .carousel-indicators [data-bs-target]{
   width: 10px !important;
@@ -41,6 +45,7 @@
 .img-listharga{
   width: 75vw;
 }
+
 
 .swiper-button-prev, .swiper-button-next{
   --swiper-navigation-size: 35px !important;
