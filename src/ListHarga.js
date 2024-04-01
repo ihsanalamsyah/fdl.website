@@ -14,7 +14,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard, EffectCoverflow } from 'swiper/modules';
+import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 
 function ListHarga() {
     return (
@@ -63,9 +63,9 @@ function ListHarga() {
                 <a target="_blank" href="https://wa.me/628567760769?text=Saya%20ingin%20tahu%20lebih%20lanjut%20mengenai%20service%20yang%20ada">
                     <img src={walogo} className="wa-logo" alt="wa" />
                 </a>
-                <div class="no-gutters">
-			        <a target="_blank" href="https://wa.me/628567760769?text=Saya%20ingin%20tahu%20lebih%20lanjut%20mengenai%20service%20yang%20ada" class="EPOka">
-			            <div class="chat-bubble chat-bubble-left">
+                <div className="no-gutters">
+			        <a target="_blank" href="https://wa.me/628567760769?text=Saya%20ingin%20tahu%20lebih%20lanjut%20mengenai%20service%20yang%20ada" className="EPOka">
+			            <div className="chat-bubble chat-bubble-left">
 				        Chat Us via WhatsApp
 			            </div>
 			        </a>
